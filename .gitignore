@@ -1,0 +1,17 @@
+virtual/
+staticfiles/
+*.sqlite3
+*.db
+*.key
+*.pem
+*.crt
+*.env
+*.ini
+*.conf
+*.log
+*.pyc
+*.pyo
+__pycache__/
+requirements.txt
+Pipfile.lock
+local_settings.py
