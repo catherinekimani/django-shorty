@@ -18,17 +18,6 @@ label {
     font-weight: bold;
     margin-bottom: 10px;
 }
-/* Style the error message */
-.error {
-    color: red;
-    margin-top: 10px;
-}
-
-/* Style the success message */
-.success {
-    color: green;
-    margin-top: 10px;
-}
 
 /* Style the input field */
 input[type="text"] {
