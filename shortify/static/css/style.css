@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the container for the form */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to the full viewport height */
+}
+
+/* Style the input label */
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Style the error message */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Style the success message */
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+/* Style the input field */
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    width: 300px;
+}
+/* Style the submit button */
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effect to the submit button */
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.short-url-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.short-url-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.short-url {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 5px 0;
+    word-wrap: break-word;
+}

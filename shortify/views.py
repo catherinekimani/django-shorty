@@ -21,10 +21,6 @@ def create_short_url(request):
     """
     Create a new shortened URL and return it as a response.
 
-    If the original URL is already in the database, return the corresponding
-    shortened URL. Otherwise, create a new URL instance and save it to the
-    database, then return the new shortened URL.
-
     Args:
         request: HttpRequest object representing the current request.
 
