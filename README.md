@@ -3,7 +3,7 @@
 This is a web application for shortening URLs built with Python and Django. The app allows users to enter long URLs and generate short aliases that redirect to the original URLs.
 ## Features
 1. Shorten long URLs to short aliases
-2. Redirect short aliases to the original URLs
+2. Redirect short aliases to the original URLs 
 ## Installation
 1. Clone this repository to your local machine.
 2. Install Python 3 and pip on your machine if they are not already installed.
